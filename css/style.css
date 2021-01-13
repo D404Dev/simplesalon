@@ -1,0 +1,398 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-family: 'Cardo', serif;
+}
+body {
+
+}
+
+#ayeshalogo{
+  float: left;
+  width: 20%;
+  height: 50px;
+  /* border: solid black; */
+}
+
+nav{
+  float: left;
+  width: 60%;
+  height: 50px;
+  /* border: solid black; */
+
+}
+
+nav ul{
+  margin-top: 10px;
+  padding-left: 100px;
+}
+
+nav li{
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  padding-left: 15px;
+}
+
+nav a{
+  color: black;
+}
+
+.bookonline{
+  float: right;
+  width: 20%;
+  height: 50px;
+  /* border: solid black; */
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.mainpage{
+  float: left;
+  background-image: url('https://cdn.discordapp.com/attachments/769332575600640010/782270826967859200/salon-main-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  margin-bottom: 100px;
+}
+
+.mainpageinfo{
+  padding-left: 150px;
+  padding-top: 150px;
+}
+
+.mainpageinfo h1, p, a{
+  color: white;
+}
+
+.mainpageinfo h1{
+  font-size: 80px;
+}
+
+.mainpageinfo p{
+
+}
+
+.ourservicebutton{
+  height: 40px;
+  width: 150px;
+  /* border: solid black; */
+  color: white;
+  background: black;
+  padding: 10px 0px 0px 10px;
+}
+
+.mainpagepromotion{
+  margin-top: 100px;
+  height: 220px;
+  width: 200px;
+  /* border: solid black; */
+  color: white;
+  background: black;
+  padding: 20px 0px 0px 20px;
+}
+
+.bookonlinebutton{
+  height: 40px;
+  width: 150px;
+  border: solid white;
+  background: white;
+  padding: 5px 0px 0px 0px;
+}
+
+.bookonlinebutton a{
+  color: black;
+}
+
+.benefitsContainer{
+  float: left;
+  height: 400px;
+  width: 100%;
+  /* border: solid black; */
+}
+
+.benefitsContainer p{
+  color: black;
+  padding-left: 50px;
+}
+
+.ebContainer, .qsContainer, .bpContainer{
+  float: left;
+  height: 300px;
+  width: 33.3333%;
+  /* border: solid black; */
+  margin-top: 50px;
+  text-align: center;
+}
+
+.momentumsection{
+  float: left;
+  height: 400px;
+  width: 100%;
+  /* border: solid black; */
+  background: gray;
+}
+
+.momentumbox{
+  float: left;
+  height: 300px;
+  width: 45%;
+  /* border: solid black; */
+  margin-left: 70px;
+  margin-top: 25px;
+
+}
+
+.momentumbox p{
+  color: black;
+}
+
+.momentumimg{
+  float: left;
+  height: 300px;
+  width: 45%;
+  /* border: solid black; */
+  margin-top: 50px;
+}
+
+#momentumPic{
+  float: left;
+  height: 300px;
+  width: 100%;
+  /* border: solid black; */
+  
+  background-image: url('https://images.unsplash.com/photo-1488282687151-c5e6582e7cf1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+}
+
+.momentumbutton{
+  height: 50px;
+  width: 150px;
+  /* border: solid black; */
+  background: black;
+  padding: 15px 0px 0px 15px;
+}
+
+.momentumbutton a{
+  color: white;
+}
+
+.threeexpertssection{
+  float: left;
+  height: 400px;
+  width: 100%;
+  /* border: solid black; */
+}
+
+.threeexpertssection h4, p{
+  color: white;
+}
+
+
+.colouristbox, .stylerbox, .beauticianbox{
+  float: left;
+  height: 300px;
+  width: 20%;
+  /* border: solid black; */
+  margin-top: 50px;
+  margin-left: 150px;
+  text-align: center;
+}
+
+.colouristbox{
+  background-image: url('https://st2.depositphotos.com/1013193/5729/i/950/depositphotos_57294249-stock-photo-beauty-salon-worker-woman-with.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stylerbox{
+  background-image: url('https://st2.depositphotos.com/1013193/5729/i/950/depositphotos_57294301-stock-photo-beauty-salon-hairdresser.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.beauticianbox{
+  background-image: url('https://st2.depositphotos.com/1013193/5729/i/950/depositphotos_57294369-stock-photo-woman-with-professional-makeup-brushes.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.colourist, .styler, .beauticians{
+  height: 45px;
+  width: 200px;
+  /* border: solid black; */
+  background: black;
+  margin-left: 40px;
+  margin-top: 270px;
+  padding: 5px 0px 0px 0px;
+}
+
+.bigcouponsection{
+  float: left;
+  height: 400px;
+  width: 100%;
+  /* border: solid black; */
+  background-image: url('http://www.frizerstvoirena-sp.si/wp-content/uploads/2016/11/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.colourdaybox{
+  float: left;
+  height: 300px;
+  width: 80%;
+  /* border: solid black; */
+  margin-left: 120px;
+  margin-top: 70px;
+}
+
+.colourdaybox h3, h2{
+  padding-top: 20px;
+}
+
+.couponbutton{
+  height: 50px;
+  width: 300px;
+  /* border: solid black; */
+  background: black;
+  margin-top: 20px;
+  padding: 15px 0px 0px 50px;;
+}
+
+.couponbutton a{
+  color: white;
+}
+
+.lookbooksection{
+  float: left;
+  height: 150px;
+  width: 100%;
+  /* border: solid black; */
+}
+
+.ourlookbook{
+  float: left;
+  height: 80px;
+  width: 20%;
+  /* border: solid black; */
+  margin-left: 600px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sixmodelsection{
+  float: left;
+  width: 100%;
+  height: 1000px;
+  margin-bottom: 100px;
+}
+
+.modelbox1{
+  float: left;
+  height: 300px;
+  width: 25%;
+  /* border: solid black; */
+  margin-left: 100px;
+  background-image: url('https://cdn.discordapp.com/attachments/769332575600640010/782270826967859200/salon-main-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modelbox2{
+  float: left;
+  height: 600px;
+  width: 25%;
+  /* border: solid black; */
+  margin-left: 100px;
+  margin-bottom: 50px;
+  background-image: url('https://www.version-coiff.fr/upload-cms/img-realisation-5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modelbox3{
+  float: left;
+  height: 300px;
+  width: 25%;
+  /* border: solid black; */
+  margin-left: 100px;
+  background-image: url('https://www.drmuratsarici.com/assets/images/yuz-dudak-dolgusu.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modelbox4{
+  clear: both;
+  float: left;
+  height: 600px;
+  width: 25%;
+  /* border: solid black; */
+  margin-left: 100px;
+  margin-top: -300px;
+  background-image: url('https://themedemo.commercegurus.com/adrenalin/wp-content/uploads/sites/39/2017/11/jewelry-side-d.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modelbox5{
+  float: left;
+  height: 300px;
+  width: 25%;
+  /* border: solid black; */
+  margin-left: 100px;
+  background-image: url('https://images.unsplash.com/flagged/photo-1570745195749-742069ccc1b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modelbox6{
+  float: left;
+  height: 600px;
+  width: 25%;
+  /* border: solid black; */
+  margin-left: 100px;
+  margin-top: -300px;
+  background-image: url('https://images.unsplash.com/photo-1523264766116-1e09b3145b84?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
